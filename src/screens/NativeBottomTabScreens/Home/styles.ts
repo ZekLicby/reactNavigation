@@ -7,12 +7,4 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  button: {
-    backgroundColor: "blue",
-    padding: 10,
-    borderRadius: 5,
-    marginBottom: 10,
-    width: "70%",
-    alignItems: "center",
-  },
 });

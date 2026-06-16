@@ -6,7 +6,7 @@ import { Menu } from "../screens/BottomTabScreens/Menu";
 import { LittleCar } from "../screens/BottomTabScreens/LittleCar";
 import Icon from "@expo/vector-icons/Ionicons";
 
-export const BottomTab = createBottomTabNavigator({
+export const BottomTabs = createBottomTabNavigator({
   screens: {
     Home: {
       screen: Home,

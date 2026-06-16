@@ -1,11 +1,9 @@
-type TNavigators = "NativeStack" | "Stack" | "BottomTab";
+type TNavigators = "NativeStack" | "Stack" | "BottomTabs" | "NativeBottomTabs";
 
 type TScreens =
   | "Hub"
   | "Login"
   | "Home"
-  | "Screen1"
-  | "Screen2"
   | "Favorites"
   | "Categories"
   | "Menu"
