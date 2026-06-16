@@ -1,4 +1,4 @@
-import { Navigator } from "./navigator";
+import { Navigator } from "./Navigators";
 
 export default function App() {
   return <Navigator />;
