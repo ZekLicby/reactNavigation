@@ -32,6 +32,18 @@ export const Hub = () => {
       >
         <Text style={{ color: "white" }}>Stack</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity
+        style={{
+          backgroundColor: "blue",
+          padding: 10,
+          borderRadius: 5,
+          marginBottom: 10,
+        }}
+        onPress={() => navigation.navigate("BottomTab")}
+      >
+        <Text style={{ color: "white" }}>Bottom Tab</Text>
+      </TouchableOpacity>
       <StatusBar style="auto" />
     </View>
   );

@@ -1,6 +1,15 @@
-type TNavigators = "NativeStack" | "Stack";
+type TNavigators = "NativeStack" | "Stack" | "BottomTab";
 
-type TScreens = "Hub" | "Login" | "Home" | "Screen1" | "Screen2";
+type TScreens =
+  | "Hub"
+  | "Login"
+  | "Home"
+  | "Screen1"
+  | "Screen2"
+  | "Favorites"
+  | "Categories"
+  | "Menu"
+  | "LittleCar";
 
 declare global {
   namespace ReactNavigation {

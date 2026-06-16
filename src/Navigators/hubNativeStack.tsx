@@ -3,13 +3,15 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Hub } from "../screens/HubNativeStackScreen/Hub";
 import { NativeStack } from "./nativeStack";
 import { Stack } from "./stack";
+import { BottomTab } from "./bottomTabs";
 
 // Navigator do tipo Stack, onde as telas são empilhadas, ou seja, a tela atual é a última tela da pilha e para voltar para a tela anterior basta remover a última tela da pilha. Existem outros tipos de navigator como o Tab, Drawer, etc. Cada um com suas características e funcionalidades específicas.
 const RootStack = createNativeStackNavigator({
   screens: {
     Hub,
     NativeStack: { screen: NativeStack, options: { headerShown: false } },
-    Stack:{screen:Stack, options:{headerShown: false}}
+    Stack:{screen:Stack, options:{headerShown: false}},
+    BottomTab:{screen:BottomTab, options:{headerShown: false}}
   },
   initialRouteName: "Hub",
 });
