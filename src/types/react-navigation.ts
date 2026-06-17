@@ -1,4 +1,9 @@
-type TNavigators = "NativeStack" | "Stack" | "BottomTabs" | "NativeBottomTabs";
+type TNavigators =
+  | "NativeStack"
+  | "Stack"
+  | "BottomTabs"
+  | "NativeBottomTabs"
+  | "Drawer";
 
 type TScreens =
   | "Hub"

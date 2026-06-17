@@ -37,6 +37,13 @@ export const Hub = () => {
       >
         <Text style={{ color: "white" }}>Native Bottom Tab</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => navigation.navigate("Drawer")}
+      >
+        <Text style={{ color: "white" }}>Drawer</Text>
+      </TouchableOpacity>
     </View>
   );
 };
