@@ -44,6 +44,13 @@ export const Hub = () => {
       >
         <Text style={{ color: "white" }}>Drawer</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => navigation.navigate("MaterialTopTabs")}
+      >
+        <Text style={{ color: "white" }}>Material Top Tab</Text>
+      </TouchableOpacity>
     </View>
   );
 };

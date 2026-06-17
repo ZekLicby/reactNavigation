@@ -3,7 +3,8 @@ type TNavigators =
   | "Stack"
   | "BottomTabs"
   | "NativeBottomTabs"
-  | "Drawer";
+  | "Drawer"
+  | "MaterialTopTabs";
 
 type TScreens =
   | "Hub"
